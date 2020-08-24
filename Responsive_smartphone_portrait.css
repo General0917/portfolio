@@ -1,0 +1,114 @@
+/*スマートフォン縦画面表示様*/
+
+@media screen and (max-width:700px) {
+    body {
+        background-color: #EEEEEE;
+        line-height: 1.7;
+    }
+    .Web-header {
+        height: 30px;
+        background-color: black;
+        width: 100%;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .8);
+        position: fixed;
+        z-index: 9999;
+    }
+    .top-nav {
+        display: flex;
+        font-size: 75%;
+        text-transform: uppercase;
+        list-style: none;
+        justify-content: space-around;
+        margin: 5px;
+        color: whitesmoke;
+    }
+    #top {
+        background: url(/Users/sakatasho/Desktop/Portforio/system-3699542_1280.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .top-text {
+        text-align: center;
+        padding-top: 250px;
+        font-size: 26px;
+    }
+    .vue-typer .custom.char.typed {
+        color: whitesmoke;
+    }
+    .face-image-smartphone_landscape img {
+        display: block;
+        width: 50%;
+        height: 50%;
+        float: left;
+        margin-left: 60px;
+    }
+    .top-contents-smartphone_landscape {
+        font-size: 100%;
+        color: #222222;
+        margin: 50px;
+        padding-top: 25px;
+        border-bottom: solid 5px #AAAAAA;
+    }
+    .introduction {
+        text-align: center;
+        height: 150px;
+        color: #555555;
+    }
+    .about-contents {
+        font-size: 7px;
+        line-height: 20px;
+        text-align: left;
+        list-style: none;
+    }
+    .lang-image {
+        width: 100px;
+        margin-top: 50px;
+    }
+    .programming-lang-smartphone_landscape {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 275px;
+        justify-content: center;
+        list-style: none;
+    }
+    .skill-level {
+        color: #B22222;
+        font-size: 20px;
+    }
+    .history-contents {
+        text-align: center;
+        font-size: 25px;
+    }
+    .certifications-link {
+        margin: 30px;
+    }
+    .from-contact {
+        text-align: center;
+    }
+    .mail-icon {
+        display: flex;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 175px 175px;
+        justify-content: center;
+    }
+    .contact-icon {
+        margin: 30px;
+        text-align: center;
+    }
+    .Web-footer {
+        margin-bottom: 45vh;
+    }
+    #inspire {
+        margin: 1px;
+        height: auto;
+        background-color: #EEEEEE;
+    }
+    .timeline-title {
+        font-size: 9px;
+    }
+    .text-contents {
+        font-size: 13px;
+    }
+}
