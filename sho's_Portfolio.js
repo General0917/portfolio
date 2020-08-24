@@ -20,22 +20,22 @@ Vue.component("list-programming", {
     template: `<ul class="programming-lang programming-lang-smartphone_landscape programming-lang-smartphone_portrait programming-lang-tablet_landscape">
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/html.png" alt="HTML">
                     <h4 class="lang-name">HTML</h4>
-                    <p class="skill-level">★☆☆☆☆</p>
+                    <p class="skill-level">★★☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/css.png" alt="CSS">
                     <h4 class="lang-name">CSS</h4>
-                    <p class="skill-level">★☆☆☆☆</p>
+                    <p class="skill-level">★★☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/JavaScript.png" alt="JavaScript">
                     <h4 class="lang-name">JavaScript</h4>
-                    <p class="skill-level">★☆☆☆☆</p>
+                    <p class="skill-level">★★☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/vue.png" alt="Vue.js">
                     <h4 class="lang-name">Vue.js</h4>
-                    <p class="skill-level">★☆☆☆☆</p>
+                    <p class="skill-level">★★☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/Java.png" alt="Java">
