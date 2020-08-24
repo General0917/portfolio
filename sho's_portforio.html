@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>Sho Sakata's Portforio Site</title>
+    <meta name="description" content="阪田将のポートフォリオ作品">
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css">
+    <link rel="stylesheet" href="/Users/sakatasho/Desktop/Portforio/css/sho's_Portforio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vue-typed-js@0.1.2/dist/vue-typed-js.css">
+    <link rel="stylesheet" href="/Users/sakatasho/Desktop/Portforio/css/Responsive_smartphone_portrait.css">
+    <link rel="stylesheet" href="/Users/sakatasho/Desktop/Portforio/css/Responsive_smartphone_landscape.css">
+    <link rel="stylesheet" href="/Users/sakatasho/Desktop/Portforio/css/Responsive_tablet_landscape.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" sizes="16x16" href="/Users/sakatasho/Desktop/Portforio/c_s.ico">
+</head>
+
+<body>
+    <!--header画面-->
+    <header class="Web-header">
+        <ul class="top-nav">
+            <li v-for="(item, index) in items" :key=index>
+                <button v-scroll-to='item.path'>
+                        {{item.title}}
+                </button>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <!--背景画面-->
+        <div id="top">
+            <section class="top-text">
+                <p class="text-color">
+                    <vue-typer :text="['Welcome to Sho Sakata\'s \nPortfolio Site']" :repeat='0' :shuffle='false' initial-action='typing' :pre-type-delay='70' :type-delay='70' :pre-erase-delay='2000' :erase-delay='250' erase-style='select-all' :erase-on-complete='false'
+                        caret-animation='blink'></vue-typer>
+                </p>
+            </section>
+        </div>
+
+        <!--about画面-->
+        <div id="about">
+            <h1 class="top-contents top-contents-smartphone_landscape top-contents-smartphone_portrait top-contents-tablet_landscape">ABOUT</h1>
+            <div class="introduction">
+                <ul class="face-image face-image-smartphone_landscape face-image-smartphone_portrait face-image-tablet_landscape">
+                    <li>
+                        <img src="/Users/sakatasho/Desktop/Portforio/face_image.png" alt="顔写真">
+                    </li>
+                </ul>
+
+                <ul class="about-contents">
+                    <li>
+                        <h4>名前：阪田　将</h4>
+                    </li>
+                    <li>
+                        <h4>生年月日：1994/09/17</h4>
+                    </li>
+                    <li>
+                        <h4>最終学歴：大阪電気通信大学　総合情報学部　情報学科</h4>
+                    </li>
+                    <li>
+                        <h4>得意言語：HTML、CSS、Javascript、Ruby</h4>
+                    </li>
+                    <li>
+                        <h4>出身地：大阪府</h4>
+                    </li>
+                    <li>
+                        <h4>前職：SESでの客先常駐で約3年間システム運用を経験しておりました。</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--skills-->
+        <div id="skill">
+            <h1 class="top-contents top-contents-smartphone_landscape top-contents-smartphone_portrait top-contents-tablet_landscape">SKILL</h1>
+            <list-programming></list-programming>
+        </div>
+
+        <!--Career-->
+        <div id="career">
+            <h1 class="top-contents top-contents-smartphone_landscape top-contents-smartphone_portrait top-contents-tablet_landscape">CAREER</h1>
+            <div id="time-line">
+                <v-app id="inspire">
+                    <v-timeline class="item-text">
+                        <v-timeline-item :fill-dot="true">
+                            <h3>2013/04</h3>
+                            <h2 class="timeline-title">大阪電気通信大学　総合情報学部　情報学科入学</h2>
+                            <p class="text-contents">大学では、プログラミング言語は、<br />C++言語、Java言語をメインに学習しておりました。<br />プログラミング能力は基礎力はあったが、大学2~3回生時、数学（暗号理論、符号理論）に興味を持つ<br /></p>
+                        </v-timeline-item>
+                        <v-timeline-item :fill-dot="true">
+                            <h3>2017/03</h3>
+                            <h2 class="timeline-title">大阪電気通信大学　総合情報学部　情報学科卒業</h2>
+                            <p class="text-contents">卒業後、前職<b>サービス&セキュリティ株式会社</b>に新卒入社</p>
+                        </v-timeline-item>
+                        <v-timeline-item :fill-dot="true">
+                            <h3>2017/04</h3>
+                            <h2 class="timeline-title">サービス&セキュリティ株式会社　入社</h2>
+                            <p class="text-contents">入社後、3日間の合宿研修に参加し、研修終了後、客先会社へ常駐</p>
+                        </v-timeline-item>
+                        <v-timeline-item :fill-dot="true">
+                            <h3>2017/04 ~ 2017/10</h3>
+                            <h2 class="timeline-title">運用監視業務</h2>
+                            <p class="text-contents">データセンターでシステムのモニターチェックを担当しており、<br />システム障害が発生した場合は、<br /> 担当者様へエスカレーションしておりました。</p>
+                        </v-timeline-item>
+                        <v-timeline-item :fill-dot="true">
+                            <h3>2017/11 ~ 2018/03</h3>
+                            <h2 class="timeline-title">複合機の画面仕様書レイアウト作成</h2>
+                            <p class="text-contents">複合機の画面仕様書レイアウト作成を外注社員様且つ、<br />プロパー社員様と一緒に携わっておりました。</p>
+                        </v-timeline-item>
+                        <v-timeline-item :fill-dot="true">
+                            <h3>2018/04 ~ 2020/03</h3>
+                            <h2 class="timeline-title">運用監視業務</h2>
+                            <p class="text-contents">客先会社様でメールシステム(Notesシステム)の<br />運用を担当しておりました。</p>
+                        </v-timeline-item>
+                        <v-timeline-item :fill-dot="true">
+                            <h3>2020/04</h3>
+                            <h2 class="timeline-title">サービス&セキュリティ株式会社　退職</h2>
+                            <p class="text-contents">退職後、<b>大阪就労移行支援　未来のかたち</b>に入所し独学で<br />プログラミングスキルを学習し続け、今に至る</p>
+                        </v-timeline-item>
+                    </v-timeline>
+                </v-app>
+            </div>
+        </div>
+
+        <!--certifications-->
+        <div id="certification">
+            <h1 class="top-contents top-contents-smartphone_landscape top-contents-smartphone_portrait top-contents-tablet_landscape">CERTIFICATION</h1>
+            <ul class="programming-lang programming-lang-smartphone_landscape programming-lang-smartphone_portrait">
+                <li class="certifications-link">
+                    <h4>ITパスポート</h4>
+                    <p>2017/12 取得</p>
+                </li>
+                <li class="certifications-link">
+                    <h4>Oracle Certified Java Programmer, Bronze SE 7/8</h4>
+                    <p>2020/02 取得</p>
+                </li>
+                <li class="certifications-link">
+                    <h4>Oracle Certified Java Programmer, Silver SE 8</h4>
+                    <p>2020/03 取得</p>
+                </li>
+                <li class="certifications-link">
+                    <h4>Ruby Association Certified Ruby Programmer Silver version 2.1</h4>
+                    <p>2020/04 取得</p>
+                </li>
+
+                <li class="certifications-link">
+                    <h4>Python3エンジニア認定基礎試験</h4>
+                    <p>2020/04 取得</p>
+                </li>
+
+                <li class="certifications-link">
+                    <h4>PHP7技術者認定初級試験</h4>
+                    <p>2020/05 取得</p>
+                </li>
+
+                <li class="certifications-link">
+                    <h4>HTML5プロフェッショナル認定 レベル1</h4>
+                    <p>2020/06 取得</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="Web-footer Web-footer-tablet_landscape">
+        <div id="contact">
+            <h1 class="top-contents top-contents-smartphone_landscape top-contents-smartphone_portrait top-contents-tablet_landscape">CONTACT</h1>
+            <h1 class="from-contact">お問い合わせ先</h1>
+            <ul class="mail-icon">
+                <li class="contact-icon">
+                    <a href="mailto:ht13a037@oecu.jp">
+                        <img src="/Users/sakatasho/Desktop/Portforio/_i_icon_12534_icon_125340_64.png" alt="メールアイコン">
+                    </a>
+                </li>
+                <li class="contact-icon">
+                    <a href="https://twitter.com/General0917">
+                        <img src="/Users/sakatasho/Desktop/Portforio/_i_icon_00225_icon_002250_64.png" alt="twitterアイコン">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-scrollto"></script>
+    <script src="https://unpkg.com/vue-typer/dist/vue-typer.min.js"></script>
+    <script src="/Users/sakatasho/Desktop/Portforio/js/sho's_Portforio.js"></script>
+
+</body>
+
+</html>
