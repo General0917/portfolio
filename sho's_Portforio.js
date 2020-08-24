@@ -18,47 +18,47 @@ var top_nav = new Vue({
 //SKILLSリスト
 Vue.component("list-programming", {
     template: `<ul class="programming-lang programming-lang-smartphone_landscape programming-lang-smartphone_portrait programming-lang-tablet_landscape">
-                <li><img class="lang-image" src="/Users/sakatasho/Desktop/Portforio/html.png" alt="HTML">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/html.png" alt="HTML">
                     <h4 class="lang-name">HTML</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
-                <li><img class="lang-image" src="/Users/sakatasho/Desktop/Portforio/css.png" alt="CSS">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/css.png" alt="CSS">
                     <h4 class="lang-name">CSS</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
-                <li><img class="lang-image" src="/Users/sakatasho/Desktop/Portforio/JavaScript.png" alt="JavaScript">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/JavaScript.png" alt="JavaScript">
                     <h4 class="lang-name">JavaScript</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
-                <li><img class="lang-image" src="/Users/sakatasho/Desktop/Portforio/vue.png" alt="Vue.js">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/vue.png" alt="Vue.js">
                     <h4 class="lang-name">Vue.js</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
-                <li><img class="lang-image" src="/Users/sakatasho/Desktop/Portforio/Java.png" alt="Java">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/Java.png" alt="Java">
                     <h4 class="lang-name">Java</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
-                <li><img class="lang-image" src="/Users/sakatasho/Desktop/Portforio/php.png" alt="PHP">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/php.png" alt="PHP">
                     <h4 class="lang-name">PHP</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
-                <li><img class="lang-image" src="/Users/sakatasho/Desktop/Portforio/Python.png" alt="Python">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/Python.png" alt="Python">
                     <h4 class="lang-name">python</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
-                <li><img class="lang-image" src="/Users/sakatasho/Desktop/Portforio/Ruby.png" alt="Ruby">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/Ruby.png" alt="Ruby">
                     <h4 class="lang-name">Ruby</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
-                <li><img class="lang-image" src="/Users/sakatasho/Desktop/Portforio/C-2.png" alt="C++">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/C-2.png" alt="C++">
                     <h4 class="lang-name">C++言語</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
