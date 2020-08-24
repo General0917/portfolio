@@ -6,7 +6,7 @@
             line-height: 1.7;
         }
         .Web-header {
-            height: 60px;
+            height: 40px;
             background-color: black;
             width: 100%;
             box-shadow: 0 0 10px 0 rgba(0, 0, 0, .8);
@@ -15,11 +15,10 @@
         }
         .top-nav {
             display: flex;
-            font-size: 175%;
+            font-size: 115%;
             text-transform: uppercase;
             list-style: none;
             justify-content: space-around;
-            margin: 5px;
             color: whitesmoke;
         }
         #top {
@@ -47,7 +46,7 @@
             font-size: 100%;
             color: #222222;
             margin: 50px;
-            padding-top: 25px;
+            padding-top: 35px;
             border-bottom: solid 5px #AAAAAA;
         }
         .introduction {
