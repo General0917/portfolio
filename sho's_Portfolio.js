@@ -5,12 +5,12 @@ var top_nav = new Vue({
     el: '.top-nav',
     data: {
         items: [
-            { title: 'top', path: '#top' },
-            { title: 'about', path: '#about' },
-            { title: 'skill', path: '#skill' },
-            { title: 'career', path: '#career' },
-            { title: 'certification', path: '#certification' },
-            { title: 'contact', path: '#contact' }
+            { title: 'TOP', path: '#top' },
+            { title: 'ABOUT', path: '#about' },
+            { title: 'SKILL', path: '#skill' },
+            { title: 'CAREER', path: '#career' },
+            { title: 'CERTIFICATION', path: '#certification' },
+            { title: 'CONTACT', path: '#contact' }
         ]
     }
 });
