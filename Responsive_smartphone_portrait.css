@@ -6,7 +6,7 @@
         line-height: 1.7;
     }
     .Web-header {
-        height: 30px;
+        height: 25px;
         background-color: black;
         width: 100%;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, .8);
@@ -15,7 +15,7 @@
     }
     .top-nav {
         display: flex;
-        font-size: 75%;
+        font-size: 65%;
         text-transform: uppercase;
         list-style: none;
         justify-content: space-around;
