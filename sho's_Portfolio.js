@@ -18,6 +18,11 @@ var top_nav = new Vue({
 //SKILLSリスト
 Vue.component("list-programming", {
     template: `<ul class="programming-lang programming-lang-smartphone_landscape programming-lang-smartphone_portrait programming-lang-tablet_landscape">
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/Notes.png" alt="Notes">
+                    <h4 class="lang-name">Lotus Notes/Domino(Lotus Script)</h4>
+                    <p class="skill-level">★★★★☆</p>
+                    <p>実務経験：1年~3年</p>
+                </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/html.png" alt="HTML">
                     <h4 class="lang-name">HTML</h4>
                     <p class="skill-level">★★☆☆☆</p>
