@@ -50,7 +50,7 @@ Vue.component("list-programming", {
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/php.png" alt="PHP">
                     <h4 class="lang-name">PHP</h4>
-                    <p class="skill-level">★☆☆☆☆</p>
+                    <p class="skill-level">★★☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/Python.png" alt="Python">
@@ -60,7 +60,7 @@ Vue.component("list-programming", {
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/Ruby.png" alt="Ruby">
                     <h4 class="lang-name">Ruby</h4>
-                    <p class="skill-level">★☆☆☆☆</p>
+                    <p class="skill-level">★★☆☆☆</p>
                     <p>実務経験：1年未満</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/C-2.png" alt="C++">
