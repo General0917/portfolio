@@ -92,7 +92,7 @@ body {
 .programming-lang {
     text-align: center;
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 275px 275px 275px;
     justify-content: center;
     list-style: none;
 }
