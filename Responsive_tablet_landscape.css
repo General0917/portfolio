@@ -67,7 +67,7 @@
         .programming-lang-tablet_landscape {
             text-align: center;
             display: grid;
-            grid-template-columns: 150px 150px 150px;
+            grid-template-columns: 165px 165px 165px;
             justify-content: center;
             list-style: none;
         }
