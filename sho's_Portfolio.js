@@ -25,28 +25,28 @@ Vue.component("list-programming", {
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/html.png" alt="HTML">
                     <h4 class="lang-name">HTML</h4>
-                    <p class="skill-level">★★☆☆☆</p>
-                    <p>実務経験：1年未満</p>
+                    <p class="skill-level">★★★☆☆</p>
+                    <p>実務経験：1年~3年</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/css.png" alt="CSS">
                     <h4 class="lang-name">CSS</h4>
-                    <p class="skill-level">★★☆☆☆</p>
-                    <p>実務経験：1年未満</p>
+                    <p class="skill-level">★★★☆☆</p>
+                    <p>実務経験：1年~3年</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/JavaScript.png" alt="JavaScript">
                     <h4 class="lang-name">JavaScript</h4>
-                    <p class="skill-level">★★☆☆☆</p>
-                    <p>実務経験：1年未満</p>
+                    <p class="skill-level">★★★☆☆</p>
+                    <p>実務経験：1年~3年</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/vue.png" alt="Vue.js">
                     <h4 class="lang-name">Vue.js</h4>
-                    <p class="skill-level">★★☆☆☆</p>
-                    <p>実務経験：1年未満</p>
+                    <p class="skill-level">★★★☆☆</p>
+                    <p>実務経験：1年~3年</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/Java.png" alt="Java">
                     <h4 class="lang-name">Java</h4>
-                    <p class="skill-level">★☆☆☆☆</p>
-                    <p>実務経験：1年未満</p>
+                    <p class="skill-level">★★★☆☆</p>
+                    <p>実務経験：1年~3年</p>
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/php.png" alt="PHP">
                     <h4 class="lang-name">PHP(Laravel)</h4>
@@ -67,6 +67,11 @@ Vue.component("list-programming", {
                     <h4 class="lang-name">C++言語</h4>
                     <p class="skill-level">★☆☆☆☆</p>
                     <p>実務経験：1年未満</p>
+                </li>
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/golang.png" alt="Golang">
+                    <h4 class="lang-name">Go言語</h4>
+                    <p class="skill-level">★☆☆☆☆</p>
+                    <p>実務経験：1年~3年</p>
                 </li>
             </ul>`,
 });
