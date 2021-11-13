@@ -70,7 +70,7 @@ Vue.component("list-programming", {
                 </li>
                 <li><img class="lang-image" src="https://general0917.github.io/portfolio/golang.png" alt="Golang">
                     <h4 class="lang-name">Go言語</h4>
-                    <p class="skill-level">★☆☆☆☆</p>
+                    <p class="skill-level">★★★☆☆</p>
                     <p>実務経験：1年~3年</p>
                 </li>
             </ul>`,
