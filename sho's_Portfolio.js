@@ -73,6 +73,11 @@ Vue.component("list-programming", {
                     <p class="skill-level">★★★☆☆</p>
                     <p>実務経験：1年~3年</p>
                 </li>
+                <li><img class="lang-image" src="https://general0917.github.io/portfolio/SQLServer.png" alt="SQL">
+                    <h4 class="lang-name">Microsoft SQL Server</h4>
+                    <p class="skill-level">★★★☆☆</p>
+                    <p>実務経験：1年~3年</p>
+                </li>
             </ul>`,
 });
 
